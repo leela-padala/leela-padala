@@ -11,6 +11,16 @@ Cybersecurity practitioner focused on security operations, cloud security, ident
 
 ## Selected Work
 
+### SOC Log Analyzer (Private)
+
+- **Problem:** Normalized authentication exports need a reproducible way to identify suspicious login patterns and retain investigation evidence offline.
+- **My work:** Built a Python CLI for CSV/JSONL validation, repeated-failure and password-spray detection, success-after-failure detection, and deterministic JSON/Markdown reports.
+- **Validation:** 79 automated tests, a clean package installation, matching reports from both example formats, and GitHub checks on Python 3.11 and 3.13. Examples use invented accounts and documentation-only IP addresses.
+- **Status:** Published in my private repository with no license selected. This is a learning and investigation aid, not a validated production detector.
+- **Evidence:** [Verified source snapshot](https://github.com/leela-padala/soc-log-analyzer/tree/1a415ce7ee7f950fe14ff40a43d729e83eece53a) and [successful test run](https://github.com/leela-padala/soc-log-analyzer/actions/runs/37500884862). These links require repository access.
+
+### Supporting Python and Analysis Work
+
 | Project | What to inspect |
 | --- | --- |
 | [Data Analysis Project](https://github.com/leela-padala/Data_Analysis_Project#readme) | Data cleaning, numeric normalization, grouped summaries, and bootstrap exercises |
